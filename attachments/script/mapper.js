@@ -46,8 +46,9 @@ function isMobile() {
 
 function uploadLocation() {
   $.ajax({
-    url: "/api",
+    url: "/cat",
     type: "POST",
+    dataType: 'json',
     contentType: "application/json",
     data: JSON.stringify({
       "geometry": app.lastLocation,

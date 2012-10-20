@@ -27,3 +27,7 @@
 .left   {top: 85px; left: 0px;}
 .right  {top: 85px; left: 180px;}
 .bottom {top: 120px; left: 25px;}
+
+.ui-bar-a {
+	background: #524700;
+}
